@@ -1,0 +1,99 @@
+body{
+	background:#232323;
+	margin:0;
+	font-weight:normal;
+}
+
+button{
+	letter-spacing: 1px;
+	padding-top:0px;
+	background:none;
+	border:none;
+	height: 20px;
+	font-weight:700;
+	text-transform:uppercase;
+	color:steelblue;
+	outline:none;
+}
+
+button:hover{
+	background:steelblue;
+	color:white;
+	transition:all, 0.3s;
+	-webkit-transition:all, 0.3s;
+	-moz-transition:all, 0.3s;
+}
+
+h1{
+	padding:20px 0px;
+	line-height:1.1;
+	text-align:center;
+	color:white;
+	background:steelblue;
+	margin:0;
+	font-family:"Chelsea Market";
+	font-weight:normal;
+	text-transform: uppercase;
+	transition:background,0.6s;
+	-webkit-transition:background, 0.6s;
+	-moz-transition:background, 0.6s;
+}
+
+#msg{
+	display: inline-block;
+	width:20%;
+	font-size:100%;
+	text-transform:uppercase;
+}
+
+#container{
+	margin:50px auto;
+	max-width:600px;
+}
+
+#gameDisplay{
+	font-size:300%;
+}
+
+#striped{
+	display:block;
+	background:white;
+	color:black;
+	text-align:center;
+}
+
+.ticToe{
+	font-family:"Chelsea Market";
+	color:white;
+	height:200px;
+	width:200px;
+	font-size:1000%;
+	text-align:center; 
+	transition:all,0.6s;
+	-webkit-transition:all, 0.6s;
+	-moz-transition:all, 0.6s;
+}
+
+table{
+	margin:0 0;
+
+}
+tr{
+
+	width:200px;
+	height:200px;
+}
+td{
+	width:200px;
+	height:200px;
+}
+
+td:nth-of-type(2){
+	border-left:2px solid red ;
+	border-right:2px solid red;
+}
+tr:nth-of-type(2) td{
+	border-top:2px solid red;
+	border-bottom:2px solid red;
+}
+
